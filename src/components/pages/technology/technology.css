@@ -1,0 +1,67 @@
+@import url("https://uploads-ssl.webflow.com/60100d2607bb730b274862d6/css/coax-new-webflow-website.webflow.e950925d6.min.css");
+
+.technology-card__icon {
+  width: 30px;
+  height: 30px;
+}
+.blueColor {
+  color: #1781bb;
+}
+.hoverBlue:hover {
+  color: #1781bb;
+}
+.technologies__hero-content .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 1rem;
+  height: auto;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #3498db;
+  border: 2px solid #dee2e6;
+  display: flex !important;
+  justify-content: space-between !important;
+  max-width: fit-content;
+  padding-bottom: 0;
+}
+.technologies__hero-content .btn-get-started:hover {
+  background: #1781bb !important;
+  border: 2px solid #1781bb;
+  color: #fff !important;
+}
+.technologies__hero-content .btn-get-started svg {
+  font-size: 2rem;
+  transition: all ease 0.3s;
+  color: #5e5e5e;
+  transform: translate(12px, -12px);
+}
+.technologies__hero-content .btn-get-started:hover svg {
+  transform: translate(14px, -14px);
+  color: #fff !important;
+}
+.technology-card:hover {
+  border: 1px solid #1781bb;
+}
+.technologies__technologies-logo {
+  width: 250px;
+  height: 50px;
+}
+.nobgBtn {
+  background: transparent !important;
+  border: 1px solid #ccc;
+}
+
+.technologies-feature-item__icon,
+.technologies-feature-item-2__icon {
+  height: 30px;
+  width: 30px;
+}
+.button-text {
+  align-items: center;
+}
+.section__technologies-hero {
+  padding: 100px 2% 100px;
+}

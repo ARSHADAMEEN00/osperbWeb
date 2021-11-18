@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Poppins:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,500&display=swap");
+@import url("https://uploads-ssl.webflow.com/60100d2607bb730b274862d6/css/coax-new-webflow-website.webflow.e950925d6.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap");
+
+@font-face {
+  font-family: "radio_editp3";
+  src: url("./fonts/radio_edit_p3-webfont.woff2") format("woff2"),
+    url("./fonts/radio_edit_p3-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+:root {
+  --div-bg-white: #ffffff;
+  --div-bg-black: #000000;
+  --text-color-black: #000000;
+  --text-color-white: #ffffff;
+  --normal-font-weight: 500;
+  --normal-font-size: 18px;
+  --normal-line-height: 20px;
+  --extra-line-height: 40px;
+  --text-font-size: 20px;
+  --font-poppins: "Lato", sans-serif; /* for all fonts */
+  --font-Playfair: Playfair Diaspiay; /* for herosection fonts */
+  --font-Montserrat: "Montserrat", sans-serif; /* for other fonts */
+  --font-opensans: "Open Sans", sans-serif;
+  --fancy-font: "Kalam", cursive;
+  --animation: all 0.3s ease-in-out;
+  --animationLogo: all 0.5s ease-in-out;
+  --animation-4s: all 0.4s ease-in-out;
+  --navbar-height: 80px;
+  --home-height: 100vh;
+  --full-max-width: 1400px;
+  --screen-width: 100%;
+  --introduction-height: 50vh;
+  --productSection-height: 95vh;
+  --testimonial-height: 570px;
+  --joinSection-height: 55vh;
+  --footer-height: 300px;
+  --dark-choco: #4c2910;
+  --success-color: #4bb543;
+  --danger-color: #ff0e0e;
+}
+
+* {
+  font-style: normal;
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-poppins) !important;
+  color: var(--text-color-black) !important;
+  background: var(--div-bg-white);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+li {
+  background-image: none !important;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+button,
+img,
+.close_btns {
+  cursor: pointer;
+  text-transform: uppercase;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.app {
+  width: 100%;
+  height: 100%;
+}
+a {
+  color: #151e27 !important;
+  text-decoration: none !important;
+}
+
+/* Loader */
+
+.loader {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
+  width: 80px;
+  height: 80px;
+  padding-left: 0;
+}
+
+.loader:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #fa9c23;
+  border-color: #fa9c23 transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.wrapper-class {
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+.editor-class {
+  background-color: #fff;
+  padding: 1rem;
+  border: 1px solid #f1f1f1;
+}
+.toolbar-class {
+  border: 1px solid #ccc;
+}
+.preview {
+  padding: 1rem;
+  margin-top: 1rem;
+}
+.db_product_form * {
+  font-style: unset;
+  font-weight: unset;
+}
+
+.scroll-to-top {
+  position: fixed;
+  right: 60px;
+  bottom: 45px;
+  width: 120px;
+  color: var(--thm-black);
+  font-size: 14px;
+  line-height: 44px;
+  border-radius: 50%;
+  text-align: center;
+  z-index: 100;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+
+.scroll-to-top img {
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+.blink {
+  animation: blinker 1.5s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0.9;
+    transform: scale(1.05);
+  }
+}
+.w_button {
+  height: 40px !important;
+  width: 120px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  border-radius: 20px !important;
+}
+
+.w_button img {
+  width: 60px;
+  height: 60px;
+  margin-left: -17px;
+}
+.fixed_btn {
+  position: fixed;
+  bottom: 5rem;
+  right: 5rem;
+}
+.w_button span {
+  font-size: 20px !important;
+  text-transform: capitalize !important;
+}
+
+.scroll-to-top {
+  opacity: 0;
+  visibility: hidden;
+}
+.scroll-to-top.show {
+  opacity: 1;
+  visibility: visible;
+  transition: ease-in-out 0.3s;
+}
+
+@media screen and (max-width: 580px) {
+  .w_button span {
+    display: none;
+  }
+  .w_button {
+    width: auto;
+    height: auto;
+    background-color: #ffffff00 !important;
+    border-color: #ffffff00 !important;
+  }
+  .w_button img {
+    width: 50px;
+    height: 50px;
+  }
+  .scroll-to-top.show {
+    right: -40px !important;
+  }
+}

@@ -1,0 +1,318 @@
+.homeTheme .footer_content,
+.homeTheme .footer_foot {
+  background: #f7f7f7;
+  color: #000;
+}
+.homeTheme .footer_content h1 {
+  color: #464545cc;
+}
+.homeTheme .footer_text a {
+  color: #000000 !important;
+}
+.footer.homeTheme {
+  background: #f7f7f7;
+}
+.homeTheme .newLinks {
+  color: #111 !important;
+}
+.homeTheme .footer_foot p a:nth-child(1) {
+  text-decoration: none;
+  color: #111 !important;
+}
+.footer_foot p a:nth-child(1) {
+  text-decoration: none;
+  color: #ffff !important;
+}
+
+.footer_text a {
+  color: #ffffff !important;
+}
+
+.footer_new > p {
+  margin-bottom: 0rem;
+}
+.footer_new p {
+  font-size: 13px;
+  margin-bottom: 1rem;
+  color: #464545cc;
+  line-height: 25px;
+}
+.footer_content,
+.footer_foot {
+  background: #082442;
+  color: #fff;
+}
+.newLinks {
+  color: #cfcfcf !important;
+}
+.footer {
+  max-width: 2000px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 45px;
+  min-height: 200px;
+  height: auto !important;
+  color: var(--text-color-black);
+  background: #082442;
+  padding: 0 !important;
+  margin: 0;
+  width: 100vw;
+}
+.footer_content {
+  flex-direction: row !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline !important;
+  padding: 2rem;
+  padding-top: 3rem;
+  margin: 0 !important;
+  max-width: 2000px !important;
+}
+.footer_content h1 {
+  font-weight: var(--normal-font-weight);
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #ffffffcc;
+  text-transform: uppercase;
+}
+.footer_text_wrap {
+  height: 100%;
+  display: flex;
+  width: 500px;
+}
+.footer_text {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  line-height: 30px;
+  font-size: 13px;
+  letter-spacing: 0.05em;
+  padding: 0;
+}
+.footer_foot h1:hover {
+  color: #95621a;
+}
+.footer_text span {
+  font-size: 12px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+.footer_text span:hover {
+  color: #5c3d2e;
+}
+.footer_text.icon {
+  margin-top: -4rem;
+  padding-left: initial;
+  width: 220px;
+}
+.footer_icons {
+  margin-bottom: 3rem;
+}
+.footer_text.icon p {
+  line-height: 20px !important;
+}
+.react__icon {
+  height: 35px;
+  width: 35px;
+  background-color: #e6e6e6;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+  cursor: pointer;
+  color: Black;
+}
+#In__icon,
+#fb__icon,
+#Tw__icon,
+#Ln__icon {
+  transition: all 0.3s ease;
+  color: #000;
+}
+#fb__icon:hover {
+  color: #4267b2;
+  transform: translateY(-0.2em);
+  -webkit-transform: translateY(-0.2em);
+  -ms-transform: translateY(-0.2em);
+}
+#In__icon:hover {
+  color: #cd486b !important;
+  transform: translateY(-0.2em);
+  -webkit-transform: translateY(-0.2em);
+  -ms-transform: translateY(-0.2em);
+}
+#Tw__icon:hover {
+  color: #1da1f2;
+  transform: translateY(-0.2em);
+  -webkit-transform: translateY(-0.2em);
+  -ms-transform: translateY(-0.2em);
+}
+#Ln__icon:hover {
+  color: #075e54;
+  transform: translateY(-0.2em);
+  -webkit-transform: translateY(-0.2em);
+  -ms-transform: translateY(-0.2em);
+}
+
+.footer_foot p {
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  letter-spacing: 0.05em;
+  opacity: 0.9;
+  text-align: start;
+  margin-left: 4.5rem;
+}
+.footer_foot p a:nth-child(2) {
+  text-decoration: none;
+  opacity: 1 !important;
+  color: #1781bb !important;
+}
+.footer_foot p a:nth-child(1) {
+  text-decoration: none;
+  /* color: #ffff !important; */
+}
+.footer_foot p a:hover {
+  color: #9e7a46;
+}
+.footer_foot p:nth-child(2) {
+  display: none;
+}
+
+@media screen and (min-width: 1600px) {
+  .footer_text a {
+    font-size: 17px;
+    line-height: 35px;
+  }
+  .footer_content h1 {
+    font-size: 18px;
+    margin-bottom: 1.7rem;
+  }
+  .footer_foot span {
+    font-size: 16px;
+  }
+  .react__icon {
+    height: 45px;
+    width: 45px;
+    margin-left: 18px;
+  }
+  #In__icon,
+  #fb__icon,
+  #Tw__icon,
+  #Ln__icon,
+  #Em__icon {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer_text.tw {
+    width: 70px;
+    margin-left: 3rem;
+  }
+  .footer_text_wrap {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  .footer_text.icon {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .footer_foot {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer_text.tw {
+    width: fit-content;
+    -moz-width: fit-content;
+    margin-left: 0rem;
+  }
+  .footer_text {
+    width: fit-content;
+  }
+  .footer_foot p {
+    margin: 0;
+  }
+  .footer {
+    height: 300px;
+  }
+  .footer_foot p {
+    font-size: 12px;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 470px) {
+  .footer_foot p:nth-child(1) {
+    display: none;
+  }
+  .footer_foot p:nth-child(2) {
+    display: block;
+  }
+  .footer_text_wrap {
+    justify-content: space-between;
+    padding: 0;
+  }
+  .footer_text_wrap {
+    /* flex-direction: column; */
+    align-items: baseline;
+    justify-content: flex-start;
+  }
+  .footer_text {
+    /* max-width: 100% !important; */
+    /* width: 100%; */
+    align-items: baseline;
+  }
+  .footer_text.main {
+    /* margin-bottom: 2rem; */
+    margin: 0 2rem 0 0;
+  }
+  .footer_new p {
+    text-align: center;
+  }
+  .footer_content {
+    flex-direction: column-reverse !important;
+  }
+  .footer_text.icon {
+    align-items: baseline;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .footer_text a,
+  .footer_content h1 {
+    font-size: 11px;
+    line-height: 20px;
+  }
+  .react__icon {
+    height: 20px;
+    width: 20px;
+  }
+  #In__icon,
+  #fb__icon,
+  #Tw__icon,
+  #Ln__icon {
+    width: 10px;
+    height: 10px;
+  }
+  .footer_foot p {
+    margin-bottom: 2rem;
+    font-size: 10px;
+    align-self: center;
+  }
+  /* .footer_text_wrap {
+    justify-content: space-between;
+  } */
+}
