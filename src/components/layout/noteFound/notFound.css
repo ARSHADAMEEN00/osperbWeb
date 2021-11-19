@@ -1,49 +1,41 @@
-@import url("https://fonts.googleapis.com/css?family=Nunito+Sans");
 :root {
   --blue: #0e0620;
   --white: #fff;
   --green: #2ccf6d;
 }
-
-html,
-body {
-  height: 100%;
-}
-
-body {
+.container {
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Nunito Sans";
-  color: var(--blue);
-  font-size: 1em;
 }
-
-button {
-  font-family: "Nunito Sans";
+.notfound {
+  align-items: stretch;
+  display: flex;
 }
-
-ul {
+.notfound ul {
   list-style-type: none;
   -webkit-padding-start: 35px;
   padding-inline-start: 35px;
 }
-
-svg {
+.align-self-center {
+  height: 100%;
+}
+.notfound svg {
   width: 100%;
 }
 
-h1 {
+.notfound h1 {
   font-size: 7.5em;
   margin: 15px 0px;
   font-weight: bold;
 }
 
-h2 {
+.notfound h2 {
   font-weight: bold;
 }
 
-.btn {
+.notfound .btn {
   z-index: 1;
   overflow: hidden;
   background: transparent;
@@ -57,11 +49,11 @@ h2 {
   font-weight: bold;
   margin: 5px 0px;
 }
-.btn.green {
+.notfound .btn.green {
   border: 4px solid var(--green);
   color: var(--blue);
 }
-.btn.green:before {
+.notfound .btn.green:before {
   content: "";
   position: absolute;
   left: 0;
@@ -72,20 +64,16 @@ h2 {
   z-index: -1;
   transition: 0.2s ease;
 }
-.btn.green:hover {
+.notfound .btn.green:hover {
   color: var(--white);
   background: var(--green);
   transition: 0.2s ease;
 }
-.btn.green:hover:before {
+.notfound .btn.green:hover:before {
   width: 100%;
 }
 
 @media screen and (max-width: 768px) {
-  body {
-    display: block;
-  }
-
   .container {
     margin-top: 70px;
     margin-bottom: 70px;

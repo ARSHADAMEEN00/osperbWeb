@@ -26,15 +26,19 @@ function NotFoundSvg() {
 
                     <motion.g transition={{
                         yoyo: Infinity,
-                        duration: 6,
-                        repeatDelay: 3,
+                        duration: 5,
+                        repeatDelay: 0.5,
                         type: 'spring',
                     }}
                         initial={{
-                            rotate: 0
+                            rotate: 0,
+                            y: 40,
+                            x: 0
                         }}
                         animate={{
-                            rotate: 360
+                            rotate: 360,
+                            y: 60,
+                            x: 40
                         }}
                         id="planet">
                         <circle
@@ -348,7 +352,21 @@ function NotFoundSvg() {
                             </g>
                         </g>
                         <g id="circlesBig">
-                            <circle
+                            <motion.circle
+                                transition={{
+                                    yoyo: Infinity,
+                                    duration: 3,
+                                    type: 'spring',
+
+                                }}
+                                initial={{
+                                    scale: 1,
+                                    x: 0
+                                }}
+                                animate={{
+                                    scale: 1.5,
+                                    x: 5
+                                }}
                                 fill="none"
                                 stroke="#0E0620"
                                 stroke-width="3"
@@ -359,7 +377,21 @@ function NotFoundSvg() {
                                 r="7.952"
                             />
 
-                            <circle
+                            <motion.circle
+                                transition={{
+                                    yoyo: Infinity,
+                                    duration: 3,
+                                    type: 'spring',
+
+                                }}
+                                initial={{
+                                    scale: 1,
+                                    x: 0
+                                }}
+                                animate={{
+                                    scale: 1.5,
+                                    x: 5
+                                }}
                                 fill="none"
                                 stroke="#0E0620"
                                 stroke-width="3"
@@ -370,7 +402,21 @@ function NotFoundSvg() {
                                 r="7.952"
                             />
 
-                            <circle
+                            <motion.circle
+                                transition={{
+                                    yoyo: Infinity,
+                                    duration: 3,
+                                    type: 'spring',
+
+                                }}
+                                initial={{
+                                    scale: 1,
+                                    x: 0
+                                }}
+                                animate={{
+                                    scale: 1.5,
+                                    x: 5
+                                }}
                                 fill="none"
                                 stroke="#0E0620"
                                 stroke-width="3"
@@ -381,7 +427,21 @@ function NotFoundSvg() {
                                 r="7.952"
                             />
 
-                            <circle
+                            <motion.circle
+                                transition={{
+                                    yoyo: Infinity,
+                                    duration: 3,
+                                    type: 'spring',
+
+                                }}
+                                initial={{
+                                    scale: 1,
+                                    x: 0
+                                }}
+                                animate={{
+                                    scale: 1.5,
+                                    x: 5
+                                }}
                                 fill="none"
                                 stroke="#0E0620"
                                 stroke-width="3"
@@ -392,7 +452,21 @@ function NotFoundSvg() {
                                 r="7.952"
                             />
 
-                            <circle
+                            <motion.circle
+                                transition={{
+                                    yoyo: Infinity,
+                                    duration: 3,
+                                    type: 'spring',
+
+                                }}
+                                initial={{
+                                    scale: 1,
+                                    x: 0
+                                }}
+                                animate={{
+                                    scale: 1.5,
+                                    x: 5
+                                }}
                                 fill="none"
                                 stroke="#0E0620"
                                 stroke-width="3"
@@ -403,7 +477,21 @@ function NotFoundSvg() {
                                 r="7.952"
                             />
 
-                            <circle
+                            <motion.circle
+                                transition={{
+                                    yoyo: Infinity,
+                                    duration: 3,
+                                    type: 'spring',
+
+                                }}
+                                initial={{
+                                    scale: 1,
+                                    x: 0
+                                }}
+                                animate={{
+                                    scale: 1.5,
+                                    x: 5
+                                }}
                                 fill="none"
                                 stroke="#0E0620"
                                 stroke-width="3"
@@ -414,7 +502,21 @@ function NotFoundSvg() {
                                 r="7.952"
                             />
 
-                            <circle
+                            <motion.circle
+                                transition={{
+                                    yoyo: Infinity,
+                                    duration: 3,
+                                    type: 'spring',
+
+                                }}
+                                initial={{
+                                    scale: 1,
+                                    x: 0
+                                }}
+                                animate={{
+                                    scale: 1.5,
+                                    x: 5
+                                }}
                                 fill="none"
                                 stroke="#0E0620"
                                 stroke-width="3"
@@ -425,7 +527,21 @@ function NotFoundSvg() {
                                 r="7.952"
                             />
 
-                            <circle
+                            <motion.circle
+                                transition={{
+                                    yoyo: Infinity,
+                                    duration: 3,
+                                    type: 'spring',
+
+                                }}
+                                initial={{
+                                    scale: 1,
+                                    x: 0
+                                }}
+                                animate={{
+                                    scale: 1.5,
+                                    x: 5
+                                }}
                                 fill="none"
                                 stroke="#0E0620"
                                 stroke-width="3"
@@ -438,31 +554,26 @@ function NotFoundSvg() {
                         </g>
                         <g id="circlesSmall">
                             <circle
-                                fill="#0E0620"
                                 cx="549.879"
                                 cy="296.402"
                                 r="2.651"
                             />
                             <circle
-                                fill="#0E0620"
                                 cx="253.29"
                                 cy="229.24"
                                 r="2.651"
                             />
                             <circle
-                                fill="#0E0620"
                                 cx="434.824"
                                 cy="263.931"
                                 r="2.651"
                             />
                             <circle
-                                fill="#0E0620"
                                 cx="183.708"
                                 cy="544.176"
                                 r="2.651"
                             />
                             <circle
-                                fill="#0E0620"
                                 cx="382.515"
                                 cy="530.923"
                                 r="2.651"
@@ -474,14 +585,27 @@ function NotFoundSvg() {
                                 r="2.651"
                             />
                             <circle
-                                fill="#0E0620"
                                 cx="480.296"
                                 cy="477.014"
                                 r="2.651"
                             />
                         </g>
                     </g>
-                    <g id="spaceman" clip-path="url(cordClip)">
+                    <motion.g transition={{
+                        yoyo: Infinity,
+                        duration: 5,
+                        type: 'spring',
+                    }}
+                        initial={{
+                            x: -10,
+                            y: -15
+                        }}
+                        animate={{
+                            x: 10,
+                            y: 30
+                        }}
+
+                        id="spaceman" clip-path="url(cordClip)">
                         <path
                             id="cord"
                             fill="none"
@@ -713,7 +837,7 @@ function NotFoundSvg() {
                                 />
                             </g>
                         </g>
-                    </g>
+                    </motion.g>
                 </g>
             </svg>
         </>
